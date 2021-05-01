@@ -21,3 +21,4 @@ class SettingsController {
 }
 
 export { SettingsController }
+
