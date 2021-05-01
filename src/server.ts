@@ -1,9 +1,6 @@
 import express from "express";
 import "./database";
-<<<<<<< HEAD
-=======
 import { routes } from "./routes";
->>>>>>> 09dd490... Structure of database included
 
 const app = express();
 

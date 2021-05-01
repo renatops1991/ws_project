@@ -1,7 +1,4 @@
 {
-<<<<<<< HEAD
-    "type": "sqlite"
-=======
     "type": "sqlite",
     "database": "./src/database/dabase.sqlite",
     "migrations": ["./src/database/migrations/**.ts"],
@@ -9,5 +6,4 @@
     "cli": {
         "migrationsDir": "./src/database/migrations"
     }
->>>>>>> 09dd490... Structure of database included
 }
