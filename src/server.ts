@@ -1,18 +1,14 @@
 import express from "express";
 import "./database";
+<<<<<<< HEAD
+=======
+import { routes } from "./routes";
+>>>>>>> 09dd490... Structure of database included
 
 const app = express();
 
-app.get("/users", (request, response) => {
-    return response.json({
-        message: "Hello World!"
-    });
-});
+app.use(express.json());
 
-app.post("/user", (request, response) => {
-    return response.json({
-        message: "User Created Successfully"
-    });
-});
+app.use(routes);
 
 app.listen(3333, () => console.log('Server is running =)'));

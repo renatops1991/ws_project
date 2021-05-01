@@ -1,3 +1,13 @@
 {
+<<<<<<< HEAD
     "type": "sqlite"
+=======
+    "type": "sqlite",
+    "database": "./src/database/dabase.sqlite",
+    "migrations": ["./src/database/migrations/**.ts"],
+    "entities": ["./src/entities/**.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+>>>>>>> 09dd490... Structure of database included
 }
