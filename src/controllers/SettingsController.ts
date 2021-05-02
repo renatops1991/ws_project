@@ -4,6 +4,7 @@ import { SettingsService } from "../services/SettingsService";
 
 class SettingsController {
     async create(request: Request, response: Response){
+        const { username, chat } = request.body;
       
         const settingsService = new SettingsService();
 
