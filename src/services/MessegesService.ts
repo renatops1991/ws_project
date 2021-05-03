@@ -8,7 +8,7 @@ interface IMessageCreate {
     admin_id?: string,
 }
 
-class MessageService {
+class MessagesService {
     private messagesRepository: Repository<Message>;
 
     constructor(){
@@ -39,4 +39,4 @@ class MessageService {
     }
 }
 
-export { MessageService }
+export { MessagesService }
